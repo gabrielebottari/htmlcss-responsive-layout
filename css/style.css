@@ -194,6 +194,10 @@ li a {
     justify-content: center;
 }
 
+.second-section #black-card {
+    color: var(--white);
+}
+
 .second-section img {
     width: 100%;
 }
@@ -476,12 +480,17 @@ footer {
         width: calc((100% / 2) - 20px);
     }
 
+    .my-col.my-col-2-3 {
+        align-content: flex-end;
+        display: flex;
+    }
 
-    /*.card-img img {
-        position: relative;
-        top: 65px;
-        right: 100px;
-    }*/
+    .card-img img {
+        /*position: relative;
+        top: 45px;
+        right: 0px;*/
+        display: block;
+    }
 
     .burger-menu {
         display: none;
