@@ -238,7 +238,7 @@ li a {
     margin-bottom: 20px;
 }
 
-.testimonial-img {
+.testimonial-img, .about-us-img {
     height: 150px;
     width: 150px;
     background-position: center;
@@ -290,7 +290,7 @@ li a {
     padding: 5px 30px;
 }
 
-.fourth-section h3 {
+.fourth-section h3, .fifth-section h3 {
     color: var(--violet);
     font-size: 3em;
     margin-top: 20px;
@@ -308,6 +308,46 @@ h4 {
 .fourth-section .button-container {
     margin: 20px 0;
 }
+
+.fifth-section p {
+    margin: 20px 0;
+}
+
+.about-us-info p {
+    color: var(--violet);
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.fifth-section > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-linkedin {
+    margin-right: 5px;
+}
+
+.fifth-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.fifth-section .button-container {
+    margin-bottom: 30px;
+}
+
+.about-us-img.img-4 {
+    background-image: url(../img/about.jpg);
+}
+
+.about-us-img > * {
+    color: var(--violet);
+    font-size: 3.5em;
+    display: flex;
+    justify-content: flex-end;
+} 
 /* 
     RESPONSIVE
 */
@@ -330,6 +370,14 @@ h4 {
 
     .fourth-section .my-col-1-2 {
         width: calc((100% / 2) - 20px);
+    }
+
+    .fifth-section main {
+        width: calc(60% - 20px);
+    }
+
+    .fifth-section aside {
+        width: calc(40% - 20px);
     }
 
     
