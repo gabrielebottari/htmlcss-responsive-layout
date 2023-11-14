@@ -129,7 +129,7 @@ li a {
     padding: 10px 30px;
 }
 
-.card {
+.my-col .card {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -177,7 +177,44 @@ li a {
     color: var(--black)
 }
 
+.second-section {
+    margin-left: 10px;
+    margin-right: 10px;
+    align-self: flex-end;
+}
 
+.second-section .card {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.second-section img {
+    width: 100%;
+}
+
+#white-card .card {
+    align-content: flex-end;
+}
+
+#white-card i {
+    color: var(--black);
+    font-size: 1em;
+}
+
+#white-card img {
+    width: 60%;
+}
+
+#white-card .button {
+    border-radius: 50%;
+    padding: 20px;
+}
+
+#white-card .button-container {
+    margin: 20px;
+}
 
 /* 
     RESPONSIVE
@@ -215,11 +252,14 @@ li a {
         text-align: left;
     }
 
-
-
     .card > * {
         width: 50%;
     }
+
+    .second-section {
+        width: calc((100% / 2) - 20px);
+    }
+
 
     /*.card-img img {
         position: relative;
