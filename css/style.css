@@ -20,3 +20,19 @@ html {
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/* 
+    RESPONSIVE
+*/
+
+/* TABLET */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* DESKTOP */
+
+@media screen and (min-width: 992px) {
+    
+}
